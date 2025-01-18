@@ -6,7 +6,7 @@ export const usePokemonStore = defineStore('pokemon', () => {
   const pokemonActual = ref({})
   const listadoPokemonActual = ref([]);
 
-  const limit = ref(9);
+  const limit = ref(8);
   const offset = ref(1)
 
   onMounted(async function(){
